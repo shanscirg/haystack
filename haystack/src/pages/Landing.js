@@ -1,9 +1,13 @@
 import React from 'react'
+import MissionHero from '../components/MissionHero'
+import WelcomeHero from '../components/WelcomeHero'
+
 
 const Landing = () => {
     return (
         <div>
-            <h1>Landing</h1>
+            <WelcomeHero/>
+            <MissionHero/>
         </div>
     )
 }
