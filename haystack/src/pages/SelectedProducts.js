@@ -1,9 +1,9 @@
 import React from 'react'
 
-function SelectedProducts() {
+const SelectedProducts = () => {
     return (
         <div>
-            <h1>Products</h1>
+            <h1>Selection</h1>
         </div>
     )
 }

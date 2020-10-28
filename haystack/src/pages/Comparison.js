@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Comparison() {
+const Comparison = () => {
     return (
         <div>
             <h1>Comparison</h1>
@@ -9,3 +9,6 @@ function Comparison() {
 }
 
 export default Comparison
+
+
+
