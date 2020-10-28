@@ -5,7 +5,16 @@ const WelcomeHero = () => {
     return (
         <div>
             <section className='hero is-warning is-large'>
-                <div className='hero-body'>
+                <div className='hero-body pt-6'>
+                    <div className='columns mt-6 mb-6 pb-6'>
+                        <div className='column is-10 is-offset-1'>
+                            <div className="field">
+                                <div className="control is-medium">
+                                    <input className="input is-medium" type="text" placeholder="Search here" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="container">
                         <div className='columns level'>
                             <div className='column'>
