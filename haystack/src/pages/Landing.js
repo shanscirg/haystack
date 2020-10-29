@@ -1,4 +1,5 @@
 import React from 'react'
+import CompareHero from '../components/CompareHero'
 import MissionHero from '../components/MissionHero'
 import Navbar from '../components/Navbar'
 import SearchHero from '../components/SearchHero'
@@ -12,6 +13,7 @@ const Landing = () => {
             <WelcomeHero/>
             <MissionHero/>
             <SearchHero/>
+            <CompareHero/>
         </div>
     )
 }
