@@ -4,6 +4,7 @@ import MissionHero from '../components/MissionHero'
 import Navbar from '../components/Navbar'
 import SearchHero from '../components/SearchHero'
 import WelcomeHero from '../components/WelcomeHero'
+import ContactHero from '../components/ContactHero'
 
 
 const Landing = () => {
@@ -14,6 +15,7 @@ const Landing = () => {
             <MissionHero/>
             <SearchHero/>
             <CompareHero/>
+            <ContactHero/>
         </div>
     )
 }
