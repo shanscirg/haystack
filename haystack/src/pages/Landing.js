@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import SearchHero from '../components/SearchHero'
 import WelcomeHero from '../components/WelcomeHero'
 import ContactHero from '../components/ContactHero'
+import Footer from '../components/Footer'
 
 
 const Landing = () => {
@@ -16,6 +17,7 @@ const Landing = () => {
             <SearchHero/>
             <CompareHero/>
             <ContactHero/>
+            <Footer/>
         </div>
     )
 }
