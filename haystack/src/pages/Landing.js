@@ -1,25 +1,21 @@
-import React from 'react'
-import CompareHero from '../components/CompareHero'
-import MissionHero from '../components/MissionHero'
-import Navbar from '../components/Navbar'
-import SearchHero from '../components/SearchHero'
-import WelcomeHero from '../components/WelcomeHero'
-import ContactHero from '../components/ContactHero'
-import Footer from '../components/Footer'
+import React from 'react';
+import CompareHero from '../components/CompareHero';
+import MissionHero from '../components/MissionHero';
+import SearchHero from '../components/SearchHero';
+import WelcomeHero from '../components/WelcomeHero';
+import ContactHero from '../components/ContactHero';
 
 
 const Landing = () => {
     return (
-        <div>
-            <Navbar/>
+        <div>            
             <WelcomeHero/>
             <MissionHero/>
             <SearchHero/>
             <CompareHero/>
-            <ContactHero/>
-            <Footer/>
+            <ContactHero/>            
         </div>
     )
 }
 
-export default Landing
+export default Landing;
