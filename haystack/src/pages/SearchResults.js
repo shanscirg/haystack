@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const SearchResults = () => {
     return (
@@ -8,4 +8,4 @@ const SearchResults = () => {
     )
 }
 
-export default SearchResults
+export default SearchResults;
