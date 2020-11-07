@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Comparison = () => {
     return (
@@ -8,7 +8,7 @@ const Comparison = () => {
     )
 }
 
-export default Comparison
+export default Comparison;
 
 
 
