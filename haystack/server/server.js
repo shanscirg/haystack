@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const app = express()
+const PORT = 3001
 
 app.use(express.static('public'))
 
@@ -14,6 +15,6 @@ app.use((req, res, next) => {
   next()
 })
 
-app.listen(3001, () => {
-  console.log('Listening on port 3000')
+app.listen(PORT, () => {
+  console.log(`Listening on port ${PORT}`)
 })
