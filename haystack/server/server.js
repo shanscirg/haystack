@@ -14,10 +14,6 @@ app.use((req, res, next) => {
   next()
 })
 
-app.get('/test', (req, res) => {
-  res.json({message: 'we out here'})
-})
-
 app.listen(3001, () => {
   console.log('Listening on port 3000')
 })
