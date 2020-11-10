@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const SelectedProducts = () => {
     return (
@@ -8,4 +8,4 @@ const SelectedProducts = () => {
     )
 }
 
-export default SelectedProducts
+export default SelectedProducts;

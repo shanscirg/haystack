@@ -6,10 +6,13 @@ import Landing from './pages/Landing';
 import SelectedProducts from './pages/SelectedProducts';
 import Comparison from './pages/Comparison';
 import Contact from './pages/Contact';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <Router>
         <Route exact path="/" component={Landing} />
         <Route exact path="/SearchResults" component={SearchResults} />
@@ -17,6 +20,7 @@ function App() {
         <Route exact path="/Comparison" component={Comparison} />
         <Route exact path="/Contact" component={Contact} />
       </Router>
+      <Footer/>
     </div>
   );
 }
