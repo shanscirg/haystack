@@ -21,9 +21,9 @@ const Modal = () => {
         // remove all products from compare state (context or localStorage)
     }
 
-    const removeFromCompare = () => {
-        // remove product from compare state (context or localStorage)
-    }
+    // const removeFromCompare = () => {
+    //     // remove product from compare state (context or localStorage)
+    // }
 
     const imgStyle = {
         width: '256px',

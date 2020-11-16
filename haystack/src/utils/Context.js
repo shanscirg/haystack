@@ -2,7 +2,7 @@ import React, { useState, createContext } from 'react';
 
 export const MyContext = createContext('');
 
-export default ({ children }) => {
+const Context = ({ children }) => {
 
     const [isCompareModalActive, setIsCompareModalActive] = useState(false);
     const [loading, setLoading] = useState(false);
@@ -12,3 +12,5 @@ export default ({ children }) => {
         {children}
     </MyContext.Provider>
 }
+
+export default Context;
