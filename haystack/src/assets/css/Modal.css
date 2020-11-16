@@ -1,0 +1,26 @@
+.btn-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.remove-btn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color:#666666;
+    margin-top: 30px;
+}
+
+.remove-btn:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+    .modal-content {
+        flex-wrap: wrap;
+    }
+}
