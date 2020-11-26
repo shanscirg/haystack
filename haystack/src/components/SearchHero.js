@@ -19,17 +19,17 @@ const SearchHero = () => {
                             is out there!
                             </p>
                         <br />
-                        <div className="field">
-                            <p className="control has-icons-left">
-                                <input className="input" type="text" placeholder="Search Here" />
-                                <span className="icon is-small is-left">
+                        <div className='field'>
+                            <p className='control has-icons-left'>
+                                <input className='input' type='text' placeholder='Search Here' />
+                                <span className='icon is-small is-left'>
                                     <FontAwesomeIcon icon={faSearch} />
                                 </span>
                             </p>
                         </div>
                     </div>
                     <div className='column'>
-                        <img src={placehold} alt="I am a placeholder" />
+                        <img src={placehold} alt='I am a placeholder' />
                     </div>
                 </div>
             </div>
