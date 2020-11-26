@@ -19,10 +19,10 @@ const SearchHero = () => {
                             is out there!
                             </p>
                         <br />
-                        <div class="field">
-                            <p class="control has-icons-left">
-                                <input class="input" type="text" placeholder="Search Here" />
-                                <span class="icon is-small is-left">
+                        <div className="field">
+                            <p className="control has-icons-left">
+                                <input className="input" type="text" placeholder="Search Here" />
+                                <span className="icon is-small is-left">
                                     <FontAwesomeIcon icon={faSearch} />
                                 </span>
                             </p>
