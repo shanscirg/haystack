@@ -21,7 +21,7 @@ const SearchHero = () => {
                         <br />
                         <div className='field'>
                             <p className='control has-icons-left'>
-                                <input className='input' type='text' placeholder='Search Here' />
+                                <input className='input' type='text' placeholder='Search here!' />
                                 <span className='icon is-small is-left'>
                                     <FontAwesomeIcon icon={faSearch} />
                                 </span>

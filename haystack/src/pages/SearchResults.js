@@ -2,6 +2,7 @@ import React from 'react';
 import SearchBar from '../components/SearchBar';
 // import SearchFilter from '../components/SearchFilter';
 
+
 const SearchResults = () => {
     return (
         <div>
