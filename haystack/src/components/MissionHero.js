@@ -5,10 +5,10 @@ const MissionHero = () => {
     return (
         <section className='hero is-light is-large'>
             <div className='hero-body'>
-                <div className="container">
+                <div className='container'>
                     <div className='columns'>
                         <div className='column'>
-                            <img src={placehold} alt="I am a placeholder" />
+                            <img src={placehold} alt='I am a placeholder' />
                         </div>
                     </div>
                     <br />
