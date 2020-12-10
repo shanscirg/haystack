@@ -17,14 +17,16 @@ const SearchBar = () => {
                     <label className='radio pr-1'>
                         <input name='language' type='radio' defaultValue='null' onChange={() => setDropdownState(!DropdownState)} /> Other Language</label>
                 </div>
-                <div className='select my-1' style={{display: DropdownState === false ? 'none' : 'block'}}>
-                    <select>
-                        <option selected disabled defaultValue >Other Languages</option>
-                        <option defaultValue='C#'>C#</option>
-                        <option defaultValue='Java'>Java</option>
-                        <option defaultValue='Swift'>Swift</option>
-                        <option defaultValue='PHP'>PHP</option>
-                    </select>
+                <div className='control is-expanded'>
+                    <div className='select my-1 is-fullwidth' style={{ display: DropdownState === false ? 'none' : 'block' }}>
+                        <select>
+                            <option selected disabled defaultValue >Other Languages</option>
+                            <option defaultValue='C#'>C#</option>
+                            <option defaultValue='Java'>Java</option>
+                            <option defaultValue='Swift'>Swift</option>
+                            <option defaultValue='PHP'>PHP</option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div className='field'>
