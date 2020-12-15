@@ -1,6 +1,7 @@
 import React from 'react';
 import SearchBar from '../components/SearchBar';
-// import SearchFilter from '../components/SearchFilter';
+import SearchMenu from '../components/SearchMenu';
+import SearchProducts from '../components/SearchProducts';
 
 
 const SearchResults = () => {
@@ -9,6 +10,8 @@ const SearchResults = () => {
             <h1>Results</h1>
         {/* <SearchFilter/> */}
         <SearchBar/>
+        <SearchMenu/>
+        <SearchProducts/>
         </div>
     )
 }

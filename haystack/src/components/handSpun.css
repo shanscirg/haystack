@@ -1,0 +1,7 @@
+.searchMenu {
+    margin-left: 0;
+    position: sticky;
+    float: left;
+    max-width: 20vw;
+    height: 100%;
+}
