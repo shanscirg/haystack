@@ -7,7 +7,7 @@ const ButtonComp = ({ text, href, onClick }) => {
         background: '#CF7500',
         color: 'white',
         fontWeight: 'bold',
-        fontSize: '21px'
+        fontSize: '18px'
     }
 
     return (

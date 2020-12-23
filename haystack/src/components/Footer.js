@@ -4,7 +4,7 @@ import { } from '@fortawesome/fontawesome-svg-core';
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className='footer'>
             <div className='container'>
                 <div className='columns'>
                     <div className='column is-half has-text-left'>

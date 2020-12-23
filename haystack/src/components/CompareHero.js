@@ -8,7 +8,7 @@ const CompareHero = () => {
             <div className='hero-body'>
                 <div className='columns level'>
                     <div className='column'>
-                        <img src={placehold} alt="I am a placeholder" />
+                        <img src={placehold} alt='I am a placeholder' />
                     </div>
                     <div className='column'>
                         <h2>
