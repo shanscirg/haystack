@@ -1,5 +1,5 @@
 import React from 'react';
-import navBrand from '../assets/Haystack.jpg';
+import navBrand from '../assets/images/Haystack.jpg';
 
 const Navbar = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import placehold from '../assets/placehold.jpg';
+import placehold from '../assets/images/placehold.jpg';
 import SearchBar from './SearchBar';
 
 const WelcomeHero = () => {

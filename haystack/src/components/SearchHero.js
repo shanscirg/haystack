@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import placehold from '../assets/placehold.jpg';
+import placehold from '../assets/images/placehold.jpg';
 
 
 const SearchHero = () => {

@@ -1,0 +1,42 @@
+.btn-div {
+    margin: 30px 10px;
+}
+
+.remove-btn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    color:#666666;
+    margin-top: 30px;
+}
+
+.remove-btn:hover {
+    cursor: pointer;
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+}
+
+.modal-content .is-three-quarters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .modal-content {
+        flex-wrap: wrap;
+    }
+    .modal-content .is-three-quarters {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .btn-div {
+        margin: 30px -10px;
+    }
+}

@@ -8,19 +8,24 @@ import Comparison from './pages/Comparison';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Modal from './components/Modal';
+import MyProvider from '../src/utils/Context';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <Router>
-        <Route exact path="/" component={Landing} />
-        <Route exact path="/SearchResults" component={SearchResults} />
-        <Route exact path="/SelectedProducts" component={SelectedProducts} />
-        <Route exact path="/Comparison" component={Comparison} />
-        <Route exact path="/Contact" component={Contact} />
+        <MyProvider>
+          <Route exact path="/Modal" component={Modal} />
+          <Route exact path="/" component={Landing} />
+          <Route exact path="/SearchResults" component={SearchResults} />
+          <Route exact path="/SelectedProducts" component={SelectedProducts} />
+          <Route exact path="/Comparison" component={Comparison} />
+          <Route exact path="/Contact" component={Contact} />
+        </MyProvider>
       </Router>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
