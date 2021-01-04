@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchProducts = () => {
     return (
-        <div>
+        <div class='container'>
             <div class="box">
                 <article class="media">
                     <div class="media-left">

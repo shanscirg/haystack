@@ -1,0 +1,8 @@
+.sidebar {
+    max-height: 100%;
+    position: sticky;
+    display: inline-block;
+    overflow-y: auto;
+    top: 0;
+    bottom: 0;
+    }
