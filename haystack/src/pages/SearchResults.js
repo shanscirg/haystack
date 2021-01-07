@@ -13,11 +13,12 @@ const SearchResults = () => {
                 <div className='column is-one-quarter'>
                     <SearchMenu />
                 </div>
-                <div className='column mx-3'>
-                    <div className='columns is-multiline is-centered'>
+                <div className='column is-three-quarters'>
+                    <div className='columns is-multiline is-centered mr-1'>
                         <div className='column is-full'>
                             <SearchProducts />
                         </div>
+                        
                         <div className='column is-full'>
                             <SearchProducts />
                         </div>

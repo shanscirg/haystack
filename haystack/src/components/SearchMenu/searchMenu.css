@@ -5,4 +5,5 @@
     overflow-y: auto;
     top: 0;
     bottom: 0;
+    width: fit-content;
     }
