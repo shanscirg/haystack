@@ -6,8 +6,8 @@ const SearchProducts = () => {
             <div className="box">
                 <article className="media">
                     <div className="media-left">
-                        <figure className="image is-256x256">
-                            <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image" />
+                        <figure className="image is-128x128">
+                            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image" />
                         </figure>
                     </div>
                     <div className="media-content">
@@ -24,7 +24,7 @@ const SearchProducts = () => {
                                     <p>Weekly Downloads</p>
                                     <span id='weeklyDownloads'></span>
                                     <p>GitHub Stars</p>
-                                    <span id='GithubStars'></span>
+                                    <span id='githubStars'></span>
                                 </div>
                             </div>
                         </div>
