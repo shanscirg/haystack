@@ -2,41 +2,32 @@ import React from 'react';
 
 const SearchProducts = () => {
     return (
-        <div class='container'>
-            <div class="box">
-                <article class="media">
-                    <div class="media-left">
-                        <figure class="image is-64x64">
-                            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image" />
+        <div className='container'>
+            <div className="box">
+                <article className="media">
+                    <div className="media-left">
+                        <figure className="image is-256x256">
+                            <img src="https://bulma.io/images/placeholders/256x256.png" alt="Image" />
                         </figure>
                     </div>
-                    <div class="media-content">
-                        <div class="content">
-                            <p>
-                                <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-                                <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                            </p>
-                        </div>
-                        <nav class="level is-mobile">
-                            <div class="level-left">
-                                <a class="level-item" aria-label="reply">
-                                    <span class="icon is-small">
-                                        <i class="fas fa-reply" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                                <a class="level-item" aria-label="retweet">
-                                    <span class="icon is-small">
-                                        <i class="fas fa-retweet" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                                <a class="level-item" aria-label="like">
-                                    <span class="icon is-small">
-                                        <i class="fas fa-heart" aria-hidden="true"></i>
-                                    </span>
-                                </a>
+                    <div className="media-content">
+                        <div className="content">
+                            <h1>Package Name</h1>
+                            <div className='columns'>
+                                <div className='column'>
+                                    <p>Framework</p>
+                                    <span id='frameworkName'></span>
+                                    <p>Most recent update</p>
+                                    <span id='recentUpdate'></span>
+                                </div>
+                                <div className='column'>
+                                    <p>Weekly Downloads</p>
+                                    <span id='weeklyDownloads'></span>
+                                    <p>GitHub Stars</p>
+                                    <span id='GithubStars'></span>
+                                </div>
                             </div>
-                        </nav>
+                        </div>
                     </div>
                 </article>
             </div>
